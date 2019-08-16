@@ -28,8 +28,8 @@ const TheSmurf = props => {
     <SmurfContainer>
       <BigDiv>
         <Heading>{props.name}</Heading>
-        <HeightAndAge>{props.height} tall</HeightAndAge>
-        <HeightAndAge>{props.age} smurf years old</HeightAndAge>
+        <HeightAndAge>Height: {props.height}cm tall</HeightAndAge>
+        <HeightAndAge>Age: {props.age} smurf years old</HeightAndAge>
       </BigDiv>
     </SmurfContainer>
   )
